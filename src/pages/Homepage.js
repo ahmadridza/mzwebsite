@@ -21,6 +21,7 @@ import MZ1 from './image/MZ1.jpg'
 import MZ2 from './image/MZ2.jpg'
 import MZ3 from './image/MZ3.jpg'
 import MZ4 from './image/MZ4.jpg'
+import Toy1 from './image/toyhorse.png'
 const items = [
     {
         src: MZ4,
@@ -82,31 +83,18 @@ const Example = (props) => {
             <Row >
                 {/* Main Col1 */}
                 <Col xs="3">
+                    <CardText className='card1'>
+                        Experience Proven
+                        <p>&</p>
+                        Wonderful
+                        Preschool
+                        Learning Here
+                    </CardText>
 
-                    <Card className='card1'>
-                        <CardText>Card1</CardText>
-                        <CardImg top width="100%" src={MZ1} alt="Card image cap" className='cardImage' />
-                        <CardBody>
-                            <CardTitle></CardTitle>
-                            <CardSubtitle></CardSubtitle>
-
-
-                        </CardBody>
-                    </Card>
-                    <p></p>
                     <Card className='card2'>
-                        <CardText>Card2</CardText>
-                        <CardImg top width="100%" src={MZ1} alt="Card image cap" className='cardImage' />
-                        <CardBody>
-                            <CardTitle></CardTitle>
-                            <CardSubtitle></CardSubtitle>
-
-
-                        </CardBody>
+                        <CardImg top width="100%" src={Toy1} alt="Card image cap" className='cardImage' />
                     </Card>
-
                 </Col>
-
 
                 {/* Main Col2 */}
                 <Col xs="9">

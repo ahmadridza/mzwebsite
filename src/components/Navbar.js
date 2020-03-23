@@ -42,10 +42,26 @@ const Searchbar = (props) => {
                                 <NavLink style={{ color: "#FFA500" }} >About | </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }}>Our Programs | </NavLink>
+                                <UncontrolledDropdown nav inNavbar>
+                                    <DropdownToggle nav caret style={{ color: "#FFA500" }}>
+                                        Our Programs
+              </DropdownToggle>
+                                    <DropdownMenu right>
+                                        <DropdownItem>
+                                            Kindergarten
+                </DropdownItem>
+                                        <DropdownItem>
+                                            Childcare
+                </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            Reset
+                </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }}>Parents | </NavLink>
+                                <NavLink style={{ color: "#FFA500" }}>|   Parents | </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink style={{ color: "#FFA500" }}>Career | </NavLink>
@@ -53,23 +69,7 @@ const Searchbar = (props) => {
                             <NavItem>
                                 <NavLink style={{ color: "#FFA500" }}>Contact Us | </NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret style={{ color: "#FFA500" }}>
-                                    Options
-              </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        Option 1
-                </DropdownItem>
-                                    <DropdownItem>
-                                        Option 2
-                </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Reset
-                </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+
                         </Nav>
 
 
