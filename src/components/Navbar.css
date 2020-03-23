@@ -1,0 +1,11 @@
+.NavStyle {
+
+    color: #FFA500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    background-color:white;
+}
+
+
