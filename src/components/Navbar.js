@@ -39,7 +39,7 @@ const Searchbar = (props) => {
 
 
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }} >About | </NavLink>
+                                <NavLink style={{ color: "#FFA500" }} activeClassName="active" tag={Link} to="/about">About | </NavLink>
                             </NavItem>
                             <NavItem>
                                 <UncontrolledDropdown nav inNavbar>

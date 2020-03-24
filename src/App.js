@@ -2,6 +2,7 @@ import React from 'react';
 import logos from './logomz.jpg'
 import './App.css';
 import Homepage from './pages/Homepage';
+import About from './pages/About'
 import Searchbar from './components/Navbar'
 import { Route, Link } from "react-router-dom"
 
@@ -18,6 +19,7 @@ function App() {
       <body>
         <p></p>
         <Route exact path="/" ><Homepage /></Route>
+        <Route exact path="/about" ><About /></Route>
       </body>
     </div>
   );

@@ -1,13 +1,12 @@
 .card1 {
     background-color: #3CB371;
     font-family: 'Modak', cursive;
-    font: bolder;
     text-align: center;
-    color: black;
+    color: #FFA500;
     font-size: 40px;
     width: 600x;
     height: 500px;
-    border: 1px solid FFA500;
+    border: 1px solid #3CB371;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
