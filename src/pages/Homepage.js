@@ -94,6 +94,7 @@ const Example = (props) => {
                     <Card className='card2'>
                         <CardImg top width="100%" src={Toy1} alt="Card image cap" className='cardImage' />
                     </Card>
+                    <p></p>
                 </Col>
 
                 {/* Main Col2 */}
@@ -128,10 +129,12 @@ const Example = (props) => {
 
                         <Col>
                             <Card className='card4'>
-                                <CardText>Card4</CardText>
+                                <CardText>Card4 </CardText>
                                 <CardBody>
                                     <CardTitle></CardTitle>
                                     <CardSubtitle></CardSubtitle>
+
+                                    <i class="fas fa-angle-right"></i>
                                 </CardBody>
                             </Card>
 
@@ -141,8 +144,11 @@ const Example = (props) => {
                             <Card className='card5'>
                                 <CardText>Card5</CardText>
                                 <CardBody>
-                                    <CardTitle></CardTitle>
+                                    <CardTitle>
+                                    </CardTitle>
+
                                     <CardSubtitle></CardSubtitle>
+                                    <i class="fas fa-angle-right"></i>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -158,16 +164,10 @@ const Example = (props) => {
                             </Card>
                         </Col>
                     </Row>
-
                 </Col>
             </Row>
 
-            <p></p>
-            <p></p>
 
-            <Container className="themed-container" fluid={true}>.container-fluid</Container>
-            <p></p>
-            <p></p>
         </Container >
 
 

@@ -43,7 +43,7 @@ const Searchbar = (props) => {
                             </NavItem>
                             <NavItem>
                                 <UncontrolledDropdown nav inNavbar>
-                                    <DropdownToggle nav caret style={{ color: "#FFA500" }}>
+                                    <DropdownToggle nav caret style={{ color: "#FFA500" }} activeClassName="active" tag={Link} to="/programs">
                                         Our Programs
               </DropdownToggle>
                                     <DropdownMenu right>
@@ -61,13 +61,13 @@ const Searchbar = (props) => {
                                 </UncontrolledDropdown>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }}>|   Parents | </NavLink>
+                                <NavLink style={{ color: "#FFA500" }} activeClassName="active" tag={Link} to="/gallery">|   Gallery | </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }}>Career | </NavLink>
+                                <NavLink style={{ color: "#FFA500" }} activeClassName="active" tag={Link} to="/events">Events | </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ color: "#FFA500" }}>Contact Us | </NavLink>
+                                <NavLink style={{ color: "#FFA500" }} activeClassName="active" tag={Link} to="/contactus">Contact Us | </NavLink>
                             </NavItem>
 
                         </Nav>
